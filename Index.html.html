@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Ela</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f5f1e6;
+      font-family: 'Playfair Display', serif;
+      color: #4b3e2e;
+      overflow-x: hidden;
+    }
+
+    .carta {
+      font-family: 'Great Vibes', cursive;
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff8e7;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      line-height: 1.6;
+      font-size: 1.8em;
+      position: relative;
+    }
+
+    .foto-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    .moldura {
+      border: 15px solid #c2b280;
+      padding: 10px;
+      background: #eee3cb;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+      max-width: 320px;
+    }
+
+    .moldura img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .descricao {
+      margin-top: 20px;
+      background: url('https://www.transparenttextures.com/patterns/aged-paper.png');
+      padding: 20px;
+      font-style: italic;
+      font-size: 1.2em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      color: #3d2f1d;
+      text-align: center;
+    }
+
+    .roleta-container {
+      text-align: center;
+      margin: 50px auto;
+    }
+
+    .botao-roleta {
+      background-color: #c2b280;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1.2em;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .botao-roleta:hover {
+      background-color: #a99b74;
+    }
+
+    .resultado {
+      margin-top: 30px;
+      font-family: 'Great Vibes', cursive;
+      font-size: 2em;
+      min-height: 60px;
+    }
+
+    .carta-final {
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 20px;
+      background: #f5eada;
+      border-radius: 10px;
+      font-style: italic;
+      font-size: 1.3em;
+      position: relative;
+      overflow: hidden;
+      border: 2px dashed #7e6a52;
+    }
+
+    .aranha-emoji {
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      font-size: 1.8em;
+      animation: subirDescer 6s ease-in-out infinite;
+    }
+
+    @keyframes subirDescer {
+      0% { top: -40px; }
+      50% { top: 80%; }
+      100% { top: -40px; }
+    }
+
+    .borda-teia {
+      position: absolute;
+      font-size: 1.5em;
+      color: #7e6a52;
+    }
+
+    .borda-teia.esquerda { left: 10px; top: 10px; }
+    .borda-teia.direita { right: 10px; top: 10px; }
+
+    @media (max-width: 600px) {
+      .carta, .carta-final {
+        margin: 20px;
+        font-size: 1.5em;
+      }
+
+      .moldura {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    Ei minha pequena, eu já disse que "eu te amo" várias vezes, Pode não ser pra você porém pra mim é uma palavra muito forte e com muito significado pra dizer atoa e pra qualquer um, e é por isso que todos, "eu te amo" que já disse pra você foi extremamente verdadeiro. Pq eu realmente te amo e muito, você entrou, na minha vida de uma forma muito aleatória e foi me conquistando com esse seus jeitinho que só você tem e com isso você conquistou muito, você me mostrou o que é realmente gostar de alguém, Vc fez eu amar novamente demostrar meus sentimentos, você é uma garota incrível e perfeita eu posso dizer que eu tenho muita sorte em ter você na minha vida, E eu te amo muito, sei que as vezes não parece pois eu falo muita besteira pra você e te proíbo de algumas coisas, mas pode ter certeza que eu te amo, Se me perguntarem hoje o porque eu me apaixonei por você eu vou responder e falar 1001 motivos, mas ainda será pouco. Quando digo que eu te amo, quero dizer que dentro de todos acontecimentos irei te amar,Eu estou torcendo por você ja que eu sei que nao é fácil passar por essas coisas sozinha saiba que pode contar comigo mesmo que seja difícil isso significa muito pra mim, Ja que eu Sinto por você o sentimento mais forte que já senti em toda minha vida por uma garotinha tão fofinha, Há um tempo atrás o amor não tinha significado algum pra mim já que todas as vezes que eu tinha tentado não tinha válido a pena, mas hoje eu consigo ver o verdadeiro significado do amor, pelo jeito que eu te amo, eu te amo em todos os mundos possíveis, e em todos eles eu escolheria você, Eu daria tudo só pra te ver feliz e bem sem esses seus traumas e insegurança,
+Sendo sincero eu tenho medo de não ser a pessoa certa e acabar piorando tudo isso que você já tem,sempre fui uma pessoa ciumenta e não quero deixar isso atingir vc de alguma forma,Não quero nunca que vc pare de fazer algo que goste por minha causa eu espero que você estenda que não importa oq EU gosto e Simm oq VOCÊ gosta e oq faz bem a você.
+  </div>
+
+  <div class="foto-container">
+    <div class="moldura">
+      <!-- FOTO LOCAL -->
+      <img src="foto.jpg" alt="Foto dela">
+    </div>
+    <div class="descricao">
+      Talvez se essa garota tivesse existido antes, Van Gogh Teria largado todas as suas pinturas pra tentar fazer algo proximo dessa perfeiçao.
+    </div>
+  </div>
+
+  <div class="roleta-container">
+    <button class="botao-roleta" onclick="girarRoleta()">Rode para ganhar um presente</button>
+    <div class="resultado" id="resultado"></div>
+  </div>
+
+  <div class="carta-final">
+    <div class="borda-teia esquerda">🕸</div>
+    <div class="borda-teia direita">🕸</div>
+    Eu faria muito mais por essa menina, mataria e morreria por ela, porém ela provavelmente se esqueceria disso.
+    <div class="aranha-emoji">🕷</div>
+  </div>
+
+  <script>
+    const mensagens = [
+      "Eu (não tem presente melhor) ❤",
+      "Vários beijin em vc todinha",
+      "Muito ciúme... 🥺👉🏻👈🏻",
+      "Muito amor claro 😌❤",
+      "Um filho...🫦"
+    ];
+
+    function girarRoleta() {
+      const resultado = document.getElementById('resultado');
+      resultado.textContent = "";
+      let count = 0;
+      let rodando = setInterval(() => {
+        const aleatorio = mensagens[Math.floor(Math.random() * mensagens.length)];
+        resultado.textContent = aleatorio;
+        count++;
+        if (count > 15) {
+          clearInterval(rodando);
+          const chance = Math.random();
+          let final = "";
+          if (chance < 0.1) {
+            final = "Um filho...🫦";
+            setTimeout(() => {
+              resultado.textContent = "Você não viu nada 🫣";
+            }, 2000);
+          } else {
+            final = mensagens[Math.floor(Math.random() * (mensagens.length - 1))];
+          }
+
+          // Letras se formando uma a uma
+          let i = 0;
+          resultado.textContent = "";
+          const escrever = setInterval(() => {
+            resultado.textContent += final[i];
+            i++;
+            if (i >= final.length) clearInterval(escrever);
+          }, 80);
+        }
+      }, 100);
+    }
+  </script>
+</body>
+</html>
